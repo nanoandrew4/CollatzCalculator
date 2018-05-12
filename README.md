@@ -4,5 +4,5 @@ I was watching a Numberphile video and thought I could implement a fast way to d
 otherwise.
 
 All attempts at using data structures to help speed up the program failed, which was quite baffling, since I thought using a map might reduce the workload significantly, among other ideas. That may have been true had no compiler 
-optimizations been used,but the current program takes advantage of them, and brute force is oddly enough the fastest method, by far. This program can calulate the maximum number of steps taken for a sequence of numbers 
+optimizations been used, but the current program takes advantage of them, and brute force is oddly enough the fastest method, by far. This program can calulate the maximum number of steps taken for a sequence of numbers 
 (you must indicate the start and end points of the sequence), or the number of steps taken for a single number (which thanks to the GMP library, can be veeeery large).
